@@ -12,3 +12,4 @@ mysql>flush privileges;
 vi /usr/local/Nginx/html/cacti/include/config.php  
 设置数据库相关配置   
 $database_type = 'mysql'; $database_default = 'cacti'; $database_hostname = 'localhost'; $database_username = 'cactiuser'; $database_password = '密码'; $database_port = '3306'; $database_ssl = false; 
+# 日志文件注意添加777权限
